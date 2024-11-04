@@ -1,0 +1,5 @@
+apk,package,mainActivity,info
+reversi.apk,uk.co.aifactory.rrfree,uk.co.aifactory.rrfree.ReversiFreeActivity,v1.73
+sudoku.apk,com.fassor.android.sudoku,com.fassor.android.sudoku.MainActivity,v2.10.7
+andttt.apk,com.github.dawidd6.andttt,com.github.dawidd6.andttt.activities.MainActivity,v0.6.6
+chess.apk,uk.co.aifactory.chessfree,uk.co.aifactory.chessfree.ChessFreeActivity,v3.86
