@@ -24,7 +24,8 @@ The screen classifier top5 guesses for the screen:
 
  `['category', 'home', 'items', 'menu', 'popup']`
 
-Choose the closest screen tag from the top5 guesses:[`You should type the closest screen tag on your cli`]: `home`
+Choose the closest screen tag from the top5 guesses: [`You should type the closest screen tag on your cli`]: `home`
+
 ---------
 id:0 floating_search_view - matched with: to_search
 
