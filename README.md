@@ -17,14 +17,14 @@
  2. the IR Models, generated tests, and intermediate results (e.g., screenshots, cropped widgets, reverse engineered UI layout hierarchy) are under [`Final-Artifacts\output`](https://github.com/liushuqi-2022/GUEST-repo/tree/main/Final-Artifacts/output) folder.
 3. the processed video frames, screenshots, cropped widgets, keyboard classifier's results of all the usages are under [`usage_data`] folder (refer to Avgust for evaluation).
 
-
+---------
 At this point you should be able to see an output similar to the output below on your command line interface:
-
+---------
 The screen classifier top5 guesses for the screen:
 
  `['category', 'home', 'items', 'menu', 'popup']`
-Choose the closest screen tag from the top5 guesses:[`You should type the closest screen tag on your cli`]
-`home`
+
+Choose the closest screen tag from the top5 guesses:[`You should type the closest screen tag on your cli`]: `home`
 ---------
 id:0 floating_search_view - matched with: to_search
 
