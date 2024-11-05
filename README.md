@@ -22,13 +22,20 @@ At this point you should be able to see an output similar to the output below on
 
 >>The screen classifier top5 guesses for the screen:
 ['category', 'home', 'items', 'menu', 'popup']
+
 Choose the closest screen tag from the top5 guesses: [`You should type the closest screen tag on your cli`]
 `home`
 ---------
 >>id:0 floating_search_view - matched with: to_search
+
 id:1 rl_search_box - matched with: to_search
+
 id:2 navigation_home - matched with: home
+
 id:3 navigation_feed - matched with: menu
+
 Choose the id of the widget you want to interact with:[`You should type the id on your cli`]: `0`
+
 Please enter the ground truth IR for the widget you chose:to_search
+
 executing event: resource-id floating_search_view click
