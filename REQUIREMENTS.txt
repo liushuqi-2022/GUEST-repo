@@ -1,0 +1,17 @@
+urllib3==1.26.6
+appium-python-client==1.2.0
+selenium==3.141.0
+numpy==2.0.2
+opencv-python==4.10.0.84
+networkx==3.2.1
+pillow==11.0.0
+pandas==2.2.3
+sentence-transformers==3.2.1
+psutil==6.1.0
+lxml==4.6.3
+nltk==3.7
+transitions==0.8.8
+pytesseract==0.3.8
+Graphviz==2.50.0
+pygraphviz==1.9
+
