@@ -1,5 +1,8 @@
 # Ignore all the .idea files
 .idea/*
+# Ignore .DS_Store files
+.DS_Store
+
 
 # Except these specific configuration files
 !.idea/modules.xml
