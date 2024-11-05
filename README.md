@@ -1,6 +1,6 @@
 ## Setting Up Repo for Test Generation
 1. clone the repository.
-2. install necessary packages(refer to REQUIREMENTS.txt)
+2. install necessary packages(refer to [REQUIREMENTS.txt](https://github.com/liushuqi-2022/GUEST-repo/blob/main/REQUIREMENTS.txt))
 3. install [Appium](http://appium.io/) Desktop
 4. add app's configuration in [App_Config.py](https://github.com/liushuqi-2022/GUEST-repo/blob/main/code/dynamic_generation/App_Config.py)
     -- you can find relevant info in [news_app_info.csv](https://github.com/liushuqi-2022/GUEST-repo/blob/main/news_app_info.csv), [shopping_app_info.csv](https://github.com/liushuqi-2022/GUEST-repo/blob/main/shopping_app_info.csv), and [game_app_info.csv](https://github.com/liushuqi-2022/GUEST-repo/blob/main/game_app_info.csv)

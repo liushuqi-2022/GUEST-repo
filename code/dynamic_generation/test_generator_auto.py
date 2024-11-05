@@ -10,6 +10,7 @@ import pickle
 import glob
 import pandas as pd
 import networkx as nx
+import nltk
 from sentence_transformers import SentenceTransformer
 
 current_dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -93,9 +94,9 @@ class TestGenerator:
         self.hub_number = 2
         self.eval_flag = eval_flag
         self.bert = SentenceTransformer('bert-base-nli-mean-tokens').to('cpu')
-        # nltk.download('words')
-        # nltk.download('punkt')
-        # self.words = set(nltk.corpus.words.words())
+        nltk.download('words')
+        nltk.download('punkt')
+        self.words = set(nltk.corpus.words.words())
 
         self.usage_name = usage_name
         # result output path
