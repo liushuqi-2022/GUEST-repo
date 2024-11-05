@@ -2,13 +2,13 @@
 1. clone the repository.
 2. install necessary packages(refer to REQUIREMENTS.txt)
 3. install [Appium](http://appium.io/) Desktop
-4. add app's configuration in [App_Config.py] 
-    -- you can find relevant info in [news_app_info.csv], [shopping_app_info.csv], and [game_app_info.csv]
+4. add app's configuration in [App_Config.py](https://github.com/liushuqi-2022/GUEST-repo/blob/main/code/dynamic_generation/App_Config.py)
+    -- you can find relevant info in [news_app_info.csv](https://github.com/liushuqi-2022/GUEST-repo/blob/main/news_app_info.csv), [shopping_app_info.csv](https://github.com/liushuqi-2022/GUEST-repo/blob/main/shopping_app_info.csv), and [game_app_info.csv](https://github.com/liushuqi-2022/GUEST-repo/blob/main/game_app_info.csv)
 5. start Android Emulator -- make sure the AUT is installed on the Emulator, e.g., abcnews.
 6. start Appium Server on Appium desktop.
-7. change file paths in [global_config.py].
+7. change file paths in [global_config.py](https://github.com/liushuqi-2022/GUEST-repo/blob/main/code/global_config.py).
 8. change the number of generated tests in [test_generator_auto.py](Modify self.MAX_TEST_NUM=2 in the [class TestGenerator] if you want to generate two tests. )
-9. run main method in [test_generator_auto.py]
+9. run main method in [test_generator_auto.py](https://github.com/liushuqi-2022/GUEST-repo/blob/main/code/dynamic_generation/test_generator_auto.py)
 
 
 [`Dynamic Test Generation`]: Dynamically generating usage-based tests for new apps
