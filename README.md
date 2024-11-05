@@ -10,12 +10,12 @@
 8. change the number of generated tests in [test_generator_auto.py](Modify self.MAX_TEST_NUM=2 in the [class TestGenerator] if you want to generate two tests. )
 9. run main method in [test_generator_auto.py](https://github.com/liushuqi-2022/GUEST-repo/blob/main/code/dynamic_generation/test_generator_auto.py)
 
+## Notice:
+[`Dynamic Test Generation`](https://github.com/liushuqi-2022/GUEST-repo/tree/main/code/dynamic_generation): Dynamically generating usage-based tests for new apps
 
-[`Dynamic Test Generation`]: Dynamically generating usage-based tests for new apps
-Notice:
- the definitions of canonical screens and canonical widgets are under [`IR`] folder
- the IR Models, generated tests, and intermediate results (e.g., screenshots, cropped widgets, reverse engineered UI layout hierarchy) are under [`Final-Artifacts\output`] folder.
- the processed video frames, screenshots, cropped widgets, keyboard classifier's results of all the usages are under [`usage_data`] folder (refer to Avgust for evaluation).
+ 1. the definitions of canonical screens and canonical widgets are under [`IR`] (https://github.com/liushuqi-2022/GUEST-repo/tree/main/IR) folder
+ 2. the IR Models, generated tests, and intermediate results (e.g., screenshots, cropped widgets, reverse engineered UI layout hierarchy) are under [`Final-Artifacts\output`](https://github.com/liushuqi-2022/GUEST-repo/tree/main/Final-Artifacts/output) folder.
+3. the processed video frames, screenshots, cropped widgets, keyboard classifier's results of all the usages are under [`usage_data`] folder (refer to Avgust for evaluation).
 
 
 At this point you should be able to see an output similar to the output below on your command line interface:
