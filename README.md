@@ -20,17 +20,16 @@
 
 At this point you should be able to see an output similar to the output below on your command line interface:
 
->>The screen classifier top5 guesses for the screen:
+The screen classifier top5 guesses for the screen:
 
  `['category', 'home', 'items', 'menu', 'popup']`
 
 Choose the closest screen tag from the top5 guesses:
 
 > `You should type the closest screen tag on your cli`
-
 `home`
 ---------
->>id:0 floating_search_view - matched with: to_search
+id:0 floating_search_view - matched with: to_search
 
 id:1 rl_search_box - matched with: to_search
 
