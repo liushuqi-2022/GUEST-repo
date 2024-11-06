@@ -15,7 +15,7 @@
 
  1. the definitions of canonical screens and canonical widgets are under [`IR`](https://github.com/liushuqi-2022/GUEST-repo/tree/main/IR) folder
  2. the IR Models, generated tests, and intermediate results (e.g., screenshots, cropped widgets, reverse engineered UI layout hierarchy) are under [`Final-Artifacts\output`](https://github.com/liushuqi-2022/GUEST-repo/tree/main/Final-Artifacts/output) folder.
-3. the processed video frames, screenshots, cropped widgets, keyboard classifier's results of all the usages are under [`usage_data`] folder (refer to Avgust for evaluation).
+3. the processed video frames, screenshots, cropped widgets, keyboard classifier's results of all the usages are under [`usage_data`](https://github.com/liushuqi-2022/GUEST-repo/tree/main/usage_data) folder (refer to Avgust for evaluation).
 
 ---------
 At this point you should be able to see an output similar to the output below on your command line interface:
