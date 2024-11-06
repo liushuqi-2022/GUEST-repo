@@ -118,14 +118,10 @@ def eval_AUT_per_usage(appname, usage_name,functionality): # appname: etsy, usag
             test2['states'].append(eval_json[key]['true_screen_IR'])
             test2['transitions'].append(eval_json[key]['true_widget_IR'])
 
-    print("test1,test2",test1,test2)
-
     if test2_exist_flag:
         generated_test_list = [clean_test(test1), clean_test(test2)]
     else:
         generated_test_list = [clean_test(test1)]
-
-    print("generated_test_list",generated_test_list)
 
     human_test_list = []
     if appname in ['sudoku', 'reversi', 'andttt', 'chess']:
@@ -157,8 +153,6 @@ def eval_AUT_per_usage(appname, usage_name,functionality): # appname: etsy, usag
             human_test = {}
             human_test['states'], human_test['transitions'] = find_linear_states_and_triggers(linear_model)
             human_test_list.append(clean_test(human_test))
-
-    print("human_test_list",human_test_list)
 
     all_pair_results_df = eval_test_pairs(appname, usage_name, human_test_list, generated_test_list)
     print("all_pair_results_df",all_pair_results_df)
